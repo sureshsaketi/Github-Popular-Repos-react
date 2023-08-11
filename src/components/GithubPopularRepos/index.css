@@ -1,0 +1,38 @@
+.gpr-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.popular-heading {
+  color: #0f172a;
+  font-family: Lobster;
+  text-align: center;
+}
+@media screen and (min-width: 768px) {
+  .popular-heading {
+    font-size: 45px;
+  }
+}
+.language-buttons-container {
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  /* justify-content: space-between; */
+}
+.repos-list {
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.failure-image {
+  width: 300px;
+}
+.failure-heading {
+  font-family: 'lobster';
+  font-size: 45px;
+  color: #0f172a;
+  text-align: center;
+}
